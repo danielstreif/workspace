@@ -14,3 +14,4 @@
 	pci = pair-commit
         cop = !git checkout $1 && git pull origin $1
 	rpo = remote prune origin
+	pom = pull origin master
