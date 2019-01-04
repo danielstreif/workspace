@@ -2,8 +2,8 @@
 alias gst="git status"
 alias please="sudo"
 alias fucking="sudo"
-alias catbash="cat ~/.bash_profile"
-alias refresh="source ~/.bash_profile"
+alias catbash="cat ~/.bashrc"
+alias refresh="source ~/.bashrc"
 
 # Alias definitions. This goes into the .bashrc
 # You may want to put all your additions into a separate file like
