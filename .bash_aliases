@@ -1,7 +1,6 @@
 ## Aliases ##
 alias gst="git status"
 alias please="sudo"
-alias fucking="sudo"
 alias catbash="cat ~/.bashrc"
 alias refresh="source ~/.bashrc"
 
