@@ -4,14 +4,18 @@
 [credential]
 	helper = cache --timeout=3600
 [alias]
-	co = checkout
 	br = branch
 	ci = commit
+	co = checkout
+	cp = cherry-pick
+	gst = git status
 	st = status
+	sta = stash
 	cane = commit --amend --no-edit
 	adog = log --all --decorate --oneline --graph
 	fo = fetch origin
 	pci = pair-commit
+	pom = pull origin master
         cop = !git checkout $1 && git pull origin $1
 	rpo = remote prune origin
-	pom = pull origin master
+	unstage = "reset HEAD"
